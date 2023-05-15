@@ -1,0 +1,3 @@
+[submodule "SimulationPortal--Main"]
+	path = SimulationPortal--Main
+	url = git@github.com:INSM-TUM/SimulationPortal--Main.git
