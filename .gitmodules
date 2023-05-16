@@ -4,3 +4,6 @@
 [submodule "SimulationPortal--Scylla-Container"]
 	path = SimulationPortal--Scylla-Container
 	url = git@github.com:INSM-TUM/SimulationPortal--Scylla-Container.git
+[submodule "scylla"]
+	path = scylla
+	url = git@github.com:bptlab/scylla.git
