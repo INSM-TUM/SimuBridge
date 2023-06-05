@@ -1,2 +1,2 @@
 # For debug runs: docker run -it -v $PWD/main.py:/usr/src/Simod/src/simod_http/main.py -p 8880:80 nokal/simod-http:3.2.1-prerelease38 bash
-docker run -it -v $PWD/main.py:/usr/src/Simod/src/simod_http/main.py -p 8880:80 nokal/simod-http:3.2.1-prerelease38 simod_http_run.bash
+docker run -it -v $PWD/main.py:/usr/src/Simod/src/simod_http/main.py -p 8880:80 nokal/simod-http:3.2.1-prerelease38
