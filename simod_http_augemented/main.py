@@ -1,3 +1,6 @@
+# This is an adapted version of https://github.com/AutomatedProcessImprovement/Simod/blob/2f3b7391f9e49e248927d61e07ec9e26d16d77e7/src/simod_http/main.py
+# It adds cors clearance
+
 import logging
 import os
 import shutil
@@ -9,7 +12,9 @@ import uvicorn
 from fastapi import FastAPI, BackgroundTasks, Request, Response, Form
 from fastapi.responses import JSONResponse
 from fastapi_utils.tasks import repeat_every
+### <Added import> 
 from fastapi.middleware.cors import CORSMiddleware
+### </Added import>
 from uvicorn.config import LOGGING_CONFIG
 
 from simod.configuration import Configuration
@@ -31,6 +36,7 @@ settings.simod_http_storage_path = Path(settings.simod_http_storage_path)
 
 app = FastAPI()
 
+### <Added Cors> 
 origins = ["*"]
 
 app.add_middleware(
@@ -40,6 +46,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+### </Added import> 
 
 
 # Background tasks
@@ -208,8 +215,6 @@ async def create_discovery(
     """
     global settings
 
-    print('Hiiiiiiii')
-    print(configuration)
     request = await _empty_request_from_params(settings.simod_http_storage_path, callback_url, email)
 
     if email is not None:
