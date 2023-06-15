@@ -6,6 +6,3 @@
 	path = SimulationPortal--Scylla-Container
 	url = git@github.com:INSM-TUM/SimulationPortal--Scylla-Container.git
 	branch = main
-[submodule "scylla"]
-	path = scylla
-	url = git@github.com:bptlab/scylla.git
