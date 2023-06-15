@@ -1,0 +1,39 @@
+version: '3.7'
+
+services:
+  simulation-bridge:
+    build:
+      context: ./SimulationPortal--Main
+      dockerfile: Dockerfile
+    image: simulation-bridge:latest
+    container_name: simulation-bridge
+    depends_on:
+      - simod
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+  simod:
+    build:
+      context: ./simod_http_augemented
+      dockerfile: Dockerfile
+    image: simod-http-cors:latest
+    container_name: simod
+    ports:
+      - "8880:80"
+    networks:
+      - app-network
+  scylla:
+    build:
+      context: ./SimulationPortal--Scylla-Container
+      dockerfile: Dockerfile
+    image: scylla-container:latest
+    container_name: scylla
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+networks:
+    app-network:
+        driver: bridge
