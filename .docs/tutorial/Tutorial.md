@@ -1,5 +1,5 @@
 # Tutorial
-This tutorial document demonstrates the usage of SumuBridge as an example. A video version of the tutorial is available [here](https://github.com/INSM-TUM/SimulationPortal--Main). <span style="color:green"> Comment: add link to YouTube</span>. We use the free event log [Purchasing Example](https://github.com/AutomatedProcessImprovement/Simod/tree/master/resources/event_logs) in this tutorial. <span style="color:green"> Comment: here is link to eventlog from Simod repo. Should be smth else(more official)?</span>
+This tutorial document demonstrates the usage of SumuBridge as an example. A video version of the tutorial is available [here](https://github.com/INSM-TUM/SimuBridge--Main). <span style="color:green"> Comment: add link to YouTube</span>. We use the free event log [Purchasing Example](https://github.com/AutomatedProcessImprovement/Simod/tree/master/resources/event_logs) in this tutorial. <span style="color:green"> Comment: here is link to eventlog from Simod repo. Should be smth else(more official)?</span>
 
  ## Start the project
 When you open the tool you have two possibilities to start: create a new project or open the project from files(e.g., existing project).  
