@@ -1,6 +1,6 @@
-[submodule "SimulationPortal--Main"]
-	path = SimulationPortal--Main
-	url = git@github.com:INSM-TUM/SimulationPortal--Main.git
+[submodule "SimuBridge--Main"]
+	path = SimuBridge--Main
+	url = git@github.com:INSM-TUM/SimuBridge--Main.git
 	branch = main
 [submodule "Scylla-Container"]
 	path = Scylla-Container

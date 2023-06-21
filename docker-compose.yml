@@ -3,7 +3,7 @@ version: '3.7'
 services:
   simulation-bridge:
     build:
-      context: ./SimulationPortal--Main
+      context: ./SimuBridge--Main
       dockerfile: Dockerfile
     image: simulation-bridge:latest
     container_name: simulation-bridge
