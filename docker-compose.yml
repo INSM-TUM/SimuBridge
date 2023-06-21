@@ -25,7 +25,7 @@ services:
       - app-network
   scylla:
     build:
-      context: ./SimulationPortal--Scylla-Container
+      context: ./Scylla-Container
       dockerfile: Dockerfile
     image: scylla-container:latest
     container_name: scylla

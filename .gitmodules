@@ -2,7 +2,7 @@
 	path = SimulationPortal--Main
 	url = git@github.com:INSM-TUM/SimulationPortal--Main.git
 	branch = main
-[submodule "SimulationPortal--Scylla-Container"]
-	path = SimulationPortal--Scylla-Container
-	url = git@github.com:INSM-TUM/SimulationPortal--Scylla-Container.git
+[submodule "Scylla-Container"]
+	path = Scylla-Container
+	url = git@github.com:INSM-TUM/Scylla-Container.git
 	branch = main
