@@ -1,5 +1,6 @@
 # This is an adapted version of https://github.com/AutomatedProcessImprovement/Simod/blob/2f3b7391f9e49e248927d61e07ec9e26d16d77e7/src/simod_http/main.py
-# It adds cors clearance
+# orginally created by Ihar Suvorau
+# It adds cors clearance to make the api usable with other tools
 
 import logging
 import os
