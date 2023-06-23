@@ -31,9 +31,8 @@ This is the root repository for the SimuBridge project. It contains the main doc
 ## :hammer_and_wrench: How to run it
 To run SimuBridge, the main application as well as the process miner(s) and simulator(s) must be started.
 
-The easiest way to achieve this is to use docker and docker-compose. Currently, the containers need to built from scratch.
-
 ### Option A: Using Docker-compose 
+The easiest way to achieve this is to use docker and docker-compose. Currently, the containers need to built from scratch.
 
 #### 1) Clone the repository
 The first step to create the containers is to clone the repository
