@@ -1,4 +1,4 @@
-# SimuBridge <br> <sub> :star2: A Bridging Platform between Process Mining and Business Process Simulation :star2: <br>![CI](https://github.com/INSM-TUM/SimuBridge--Main/actions/workflows/CI.yml/badge.svg)</sub><!-- TODO reconfigure CI  -->
+# SimuBridge <br> <sub> :star2: A Bridging Platform between Process Mining and Business Process Simulation :star2: <br><!--![CI](https://github.com/INSM-TUM/SimuBridge--Main/actions/workflows/CI.yml/badge.svg) TODO reconfigure CI  --></sub>
 
 
 ![Screenshot of SimuBridge](.docs/screenshot.png)
