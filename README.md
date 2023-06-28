@@ -23,8 +23,8 @@ For a usage manual, please refer to our [tutorial document](./.docs/tutorial/Tut
 
 ## :abcd: Repository Structure
 This is the root repository for the SimuBridge project. It contains the main documentation, as well as the individual application components, which are distributed over Git submodules and GitHub subrepositories.
-- [SimuBridge--Main/](./SimuBridge--Main/) is the main application repository for SimuBridge and contains the application source code.
-- [Scylla-Container/](./Scylla-Container/) contains the sources for an http api and containerization of the business process simulator [Scylla](https://github.com/bptlab/scylla)
+- [SimuBridge--Main/](../../../SimuBridge--Main/) is the main application repository for SimuBridge and contains the application source code.
+- [Scylla-Container/](../../../Scylla-Container/) contains the sources for an http api and containerization of the business process simulator [Scylla](https://github.com/bptlab/scylla)
 - [simod_http_augemented/](./simod_http_augemented/) includes the files needed for the integration of the process mining tool [Simod](https://github.com/AutomatedProcessImprovement/Simod)
 - [example_data/](./example_data/) <!-- TODO put some explaination here  -->
 
