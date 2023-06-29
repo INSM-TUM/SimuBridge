@@ -19,7 +19,8 @@ helps to integrate process mining and simulation tools
 and reduces manual effort in the parameterization business process simulations.
 
 ## :technologist: Usage
-For a usage manual, please refer to our [tutorial document](./.docs/tutorial/Tutorial.md) and to our [screencast](./TBD) <!-- TODO tutorial link  --> <!-- TODO maybe some half sentence on those two  -->
+For a usage manual, please refer to our [tutorial document](./.docs/tutorial/Tutorial.md) and to our [screencast](https://figshare.com/account/articles/23599509).
+ <!-- TODO maybe some half sentence on those two  -->
 
 ## :abcd: Repository Structure
 This is the root repository for the SimuBridge project. It contains the main documentation, as well as the individual application components, which are distributed over Git submodules and GitHub subrepositories.
