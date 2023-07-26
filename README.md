@@ -45,7 +45,7 @@ Note: In any case, make sure to include the `--recurse-submodules` flag so all s
 #### 2) Run Docker-compose
 Navigate into the repository folder and run the following:
 ```console
-docker-compose -f docker-compose.yml u
+docker-compose -f docker-compose.yml up
 ```
 
 This will build and instantiate all three needed docker images. Congrats, you can now access SimuBridge in your browser at `localhost:3000`
